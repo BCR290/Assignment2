@@ -47,3 +47,30 @@ tr:last-child {
 table, td, th {
 	border: 1px solid black;
 }
+
+div {
+	background-color: pink;
+	width: 75%;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+div div {
+	background-color: blue;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+   
+}
+
+dt:hover +dd{
+   background-color: purple;
+}
+
+img {
+	float:left;
+	width:100px;
+	height:125px;
+}
+
