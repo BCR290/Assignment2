@@ -1,16 +1,26 @@
 
-
-.outer-content {
+div {
 	background-color: pink;
 	width: 75%;
 	margin-top: 20px;
-	height: 200px;
+	padding-top: 20px;
+	padding-bottom:20px;
 }
 
-.inner-content {
+div div {
 	background-color: blue;
 	width: 75%;
-	height: 100%;
 	margin: auto;
+	text-align: center;
+   
 }
 
+dt:hover +dd{
+   background-color: purple;
+}
+
+img {
+	float:left;
+	width:100px;
+	height:125px;
+}
