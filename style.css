@@ -1,3 +1,49 @@
-p {
+h3{
+	text-align: center;
+	font-weight: normal;
+}
 
-  }
+table{
+	width: 100%;
+}
+
+th:first-child{
+	font-style:italic;
+	font-weight: normal;
+}
+
+td:not(:last-child):nth-child(2){
+	color: #ff0000;
+	font-weight: normal;
+}
+
+td:not(:last-child):nth-child(3){
+	
+	font-weight: normal;
+}
+
+td:not(:last-child):nth-child(4){
+	color: #0000ff;
+	font-weight: normal;
+}
+
+
+tr:nth-child(2n){
+	background: #90EE90;
+}
+
+tr:nth-child(2n+1){
+	background: #ADD8E6;
+}
+
+tr:first-child {
+	background: #fff;
+}
+
+tr:last-child {
+	background: #fff;
+}
+
+table, td, th {
+	border: 1px solid black;
+}
