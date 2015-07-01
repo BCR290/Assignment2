@@ -1,3 +1,5 @@
-p {
-  hello
-  }
+
+dt:hover +dd{
+   background-color: purple;
+}
+
