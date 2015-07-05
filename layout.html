@@ -10,61 +10,61 @@
 
 		<!-- table -->
 		<H3> Who wins? Cell content indicates the status of the row entry.</H3>
-	<TABLE>
-		<TR>
-	
-		<TH></TH>
-		<TH>Godzilla</TH>
-		<TH>Batman</TH>
-		<TH>Shaq</TH>
-		<TH>Aaron Carter</TH>
-		<TH>Abe Licoln</TH>
-	</TR>	
-	<TR>
-		<TH>Godzilla</TH>
-		<TD>N/A</TD>
-		<TD>Minor Loss</TD>
-		<TD>Loss</TD>
-		<TD>Unknown</TD>
-		<TD>Unknown</TD>
-	</TR>
-	<TR>
-		<TH>Batman</TH>
-		<TD>Minor Loss</TD>
-		<TD>N/A</TD>
-		<TD>Total Victory</TD>
-		<TD>Total Victory</TD>
-		<TD>Total Loss</TD>
-	</TR>
-	<TR>
-		<TH>Shaq</TH>
-		<TD>Win</TD>
-		<TD>Total Loss</TD>
-		<TD>N/A</TD>
-		<TD>Minor Loss</TD>
-		<TD>Unknown</TD>
-	</TR>
-	<TR>
-		<TH>Aaron Cater</TH>
-		<TD>Unknown</TD>
-		<TD>Total Loss</TD>
-		<TD>Minor Wim</TD>
-		<TD>N/A</TD>
-		<TD>Unknown</TD>
-	</TR>
-	<TR>
-		<TH>Abe Licoln</TH>
-		<TD>Unknown</TD>
-		<TD>Total Victory</TD>
-		<TD>Unknown</TD>
-		<TD>Unknwon</TD>
-		<TD>N/A</TD>
-	</TR>
-	<TR>
-		<td colspan="2"> Footer 1 </td>
-		<td colspan="4"> Foooter 2 </td>
-	</TR>
-	</TABLE>
+		<TABLE>
+			<TR>
+				<TH></TH>
+				<TH>Godzilla</TH>
+				<TH>Batman</TH>
+				<TH>Shaq</TH>
+				<TH>Aaron Carter</TH>
+				<TH>Abe Licoln</TH>
+			</TR>	
+			<TR>
+				<TH>Godzilla</TH>
+				<TD>N/A</TD>
+				<TD>Minor Loss</TD>
+				<TD>Loss</TD>
+				<TD>Unknown</TD>
+				<TD>Unknown</TD>
+			</TR>
+			<TR>
+				<TH>Batman</TH>
+				<TD>Minor Loss</TD>
+				<TD>N/A</TD>
+				<TD>Total Victory</TD>
+				<TD>Total Victory</TD>
+				<TD>Total Loss</TD>
+			</TR>
+			<TR>
+				<TH>Shaq</TH>
+				<TD>Win</TD>
+				<TD>Total Loss</TD>
+				<TD>N/A</TD>
+				<TD>Minor Loss</TD>
+				<TD>Unknown</TD>
+			</TR>
+			<TR>
+				<TH>Aaron Cater</TH>
+				<TD>Unknown</TD>
+				<TD>Total Loss</TD>
+				<TD>Minor Wim</TD>
+				<TD>N/A</TD>
+				<TD>Unknown</TD>
+			</TR>
+			<TR>
+				<TH>Abe Licoln</TH>
+				<TD>Unknown</TD>
+				<TD>Total Victory</TD>
+				<TD>Unknown</TD>
+				<TD>Unknwon</TD>
+				<TD>N/A</TD>
+			</TR>
+			<TR>
+				<td colspan="2"> Footer 1 </td>
+				<td colspan="4"> Foooter 2 </td>
+			</TR>
+		</TABLE>
+
 		<!-- dl    -->
 		<dl>
 		  <dt>Coffee</dt>
@@ -75,27 +75,14 @@
 		  <dd>White cold drink</dd>
 		</dl>
 
+		<!-- Divs -->
+	    <div class="outer-content">
+	    	<div class="inner-content">   
+	    		This is a div inside a div!     		
+	    	</div>
+	    </div>	
+
 		<!-- Forms -->
-		<form action="POST" action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php">
-			<fieldset>
-			<legend>Some POST data</legend>
-				<fieldset>Text:<input type="text" name="text_input"></fieldset>
-				<fieldset>Number:<input type="number" name="numerical_input"></fieldset>
-				<fieldset>Password:<input type="password" name="password_input"></fieldset>
-				
-				<!--<h2>Candy</h2>-->
-				<fieldset>
-					Choose Between: 
-					<br>
-					<input type="radio" name="candy" value="Snickers">Snickers<br>
-					<input type="radio" name="candy" value="Skittles">Skittles<br>
-					<input type="radio" name="candy" value="Mentos">Mentos<br>
-				</fieldset>
-			</fieldset>
-		</form>
-
-		<br>
-
 		<form action="GET" action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php">
 			<fieldset>
 			<legend>Some GET data:</legend>
@@ -114,12 +101,29 @@
 			</fieldset>
 		</form>
 
-		<!-- Divs -->
-	    <div class="outer-content">
-	    	<div class="inner-content">   
-	    		This is a div inside a div!     		
-	    	</div>
-	    </div>	
+		<br>
+
+		<form action="POST" action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php">
+			<fieldset>
+			<legend>Some POST data</legend>
+				<fieldset>Text:<input type="text" name="text_input"></fieldset>
+				<fieldset>Number:<input type="number" name="numerical_input"></fieldset>
+				<fieldset>Password:<input type="password" name="password_input"></fieldset>
+				
+				<!--<h2>Candy</h2>-->
+				<fieldset>
+					Choose Between: 
+					<br>
+					<input type="radio" name="candy" value="Snickers">Snickers<br>
+					<input type="radio" name="candy" value="Skittles">Skittles<br>
+					<input type="radio" name="candy" value="Mentos">Mentos<br>
+				</fieldset>
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+
+
+
 
 	    <!--paragraphs --> 
 		<img src="20120327161442396.jpg" alt="OSU" />
