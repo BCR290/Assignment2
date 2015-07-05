@@ -61,7 +61,6 @@ div div {
 	width: 75%;
 	margin: auto;
 	text-align: center;
-   
 }
 
 dt:hover +dd{
@@ -74,3 +73,6 @@ img {
 	height:125px;
 }
 
+fieldset {
+	margin: 10px;
+}
